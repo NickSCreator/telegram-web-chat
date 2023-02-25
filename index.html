@@ -19,28 +19,31 @@
         setThemeClass();
     </script>
     <style>
-        button {
-        width: 90vw;
-        height: 20vh;
-        background-color: green;
-        color: white;
-        font-family: Arial, sans-serif;
-        font-size: 2em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 16px;
+        .cta {
+              display: inline-block;
+              padding: 12px 24px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #ffffff;
+              text-align: center;
+              text-decoration: none;
+              background-color: #1e1e1e;
+              border-radius: 6px;
+              border: none;
+              box-shadow: none;
+}
+
+.cta:hover {
+              background-color: #333333;
+              color: #ffffff;
+}
     }
     </style>
 </head>
 
 <body>
     
-    <a href="https://chat.openai.com/auth/login" class="cta">
-        <button>Start</button>
-    </a>
+    <a href="https://chat.openai.com/auth/login" class="cta">Start</a>
 
 </body>
 </html>
